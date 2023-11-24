@@ -18,4 +18,7 @@ else
 console.log("You are not eigible for license");
 }
 
-console.log(checkEligibility(true,19,checkTest));
+module.exports= {
+    checkEligibility,
+    checkTest,
+}
